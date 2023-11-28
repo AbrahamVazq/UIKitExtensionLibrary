@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34D88C6B2B15736900B5B053 /* Paths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D88C6A2B15736900B5B053 /* Paths.swift */; };
+		34D88C6E2B157C0000B5B053 /* WebServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D88C6D2B157C0000B5B053 /* WebServiceManager.swift */; };
 		A405FC6D2B1544020088D8FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A405FC6C2B1544020088D8FA /* AppDelegate.swift */; };
 		A405FC6F2B1544020088D8FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A405FC6E2B1544020088D8FA /* SceneDelegate.swift */; };
 		A405FC712B1544020088D8FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A405FC702B1544020088D8FA /* ViewController.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34D88C6A2B15736900B5B053 /* Paths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paths.swift; sourceTree = "<group>"; };
+		34D88C6D2B157C0000B5B053 /* WebServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceManager.swift; sourceTree = "<group>"; };
 		A405FC692B1544010088D8FA /* UIKitExtensionLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitExtensionLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A405FC6C2B1544020088D8FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A405FC6E2B1544020088D8FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +47,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34D88C682B15733800B5B053 /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				34D88C692B15734800B5B053 /* Paths */,
+				34D88C6C2B157BCF00B5B053 /* WebServiceManager */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		34D88C692B15734800B5B053 /* Paths */ = {
+			isa = PBXGroup;
+			children = (
+				34D88C6A2B15736900B5B053 /* Paths.swift */,
+			);
+			path = Paths;
+			sourceTree = "<group>";
+		};
+		34D88C6C2B157BCF00B5B053 /* WebServiceManager */ = {
+			isa = PBXGroup;
+			children = (
+				34D88C6D2B157C0000B5B053 /* WebServiceManager.swift */,
+			);
+			path = WebServiceManager;
+			sourceTree = "<group>";
+		};
 		A405FC602B1544010088D8FA = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +91,7 @@
 		A405FC6B2B1544010088D8FA /* UIKitExtensionLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				34D88C682B15733800B5B053 /* WebServices */,
 				A405FC802B154AAE0088D8FA /* Extension */,
 				A405FC6C2B1544020088D8FA /* AppDelegate.swift */,
 				A405FC6E2B1544020088D8FA /* SceneDelegate.swift */,
@@ -155,9 +185,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34D88C6B2B15736900B5B053 /* Paths.swift in Sources */,
 				A405FC712B1544020088D8FA /* ViewController.swift in Sources */,
 				A405FC6D2B1544020088D8FA /* AppDelegate.swift in Sources */,
 				A405FC862B1553770088D8FA /* Extension+UISlider.swift in Sources */,
+				34D88C6E2B157C0000B5B053 /* WebServiceManager.swift in Sources */,
 				A405FC6F2B1544020088D8FA /* SceneDelegate.swift in Sources */,
 				A405FC822B154EFB0088D8FA /* Extension+Bundle.swift in Sources */,
 				A405FC842B154F960088D8FA /* Extension+NSMutableAttributedString.swift in Sources */,
